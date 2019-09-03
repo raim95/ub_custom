@@ -1,2 +1,2 @@
-read -p "Введите имя пользователя" username
-sudo useradd $username
+read -p "Введите имя пользователя: " username
+sudo useradd -m -s /bin/bash $username
